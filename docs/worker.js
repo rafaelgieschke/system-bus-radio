@@ -33,6 +33,7 @@ function play(song) { // Parse song data, and call on required scripts to run it
 	song = song.split("\n");
 	var length = song.length;
 	var line, time, freq;
+for (;;)
 	for (var i = 0; i < length; i++) {
 		line = song[i].split(" ");
 		if (+line[1] == 0) {
